@@ -1,0 +1,163 @@
+1. Zero to Hacker Wiki (Internal Amazon Resource)
+
+For those within Amazon, the Zero to Hacker Wiki, created by zlcube@, is a fantastic starting point. This Wiki is designed to help you go from zero knowledge to competent in cybersecurity, offering detailed content across various foundational topics, such as:
+
+    Linux Basics: Learn how to set up and use Arch Linux and Black Arch.
+    Enumeration & Reconnaissance: Master key tools to scan networks and recognize vulnerabilities.
+    Service Scanning & Tools: Get familiar with services, routes, descriptors, and tools for scanning.
+    Web Application Hacking: Delve into weak RSA encryption, basic web exploitation, and common vulnerabilities.
+    WiFi Hacking: Use the Flipper Zero ESP32 for WiFi attacks and deauthentication.
+    Social Engineering: Learn the basics of social engineering attacks like HTML AutoDownload.
+
+This resource also contains HTB Fortress write-ups to help you understand the best practices for approaching Hack The Box challenges and labs. You can progress through the materials at your own pace by following the order of topics listed, making sure you build a solid foundation.
+Key Sections of Zero to Hacker:
+
+    Linux Basics: ArchInstallGuide  LinuxBasics
+    Enumeration & Reconnaissance: Service Scan & Basic Tools
+    WiFi Hacking: FlipperZero Wifi Deauth
+    Social Engineering: AutoDownload
+
+Make sure to regularly visit the Wiki as new content is being added frequently.
+2. Hack The Box Academy
+
+For hands-on learners, Hack The Box Academy is one of the best platforms to develop real-world hacking skills. It’s an interactive platform designed to take you through hacking exercises that simulate real-life scenarios. Academy offers both free and paid learning paths to ensure accessibility for all levels.
+Why Choose Hack The Box Academy?
+
+    Structured Learning Paths: Start from beginner-friendly topics like Linux basics and gradually progress to advanced areas like privilege escalation and exploit development.
+    Real-World Application: You’re not just learning theory—you’re applying it to real-world problems in a controlled lab environment.
+    Free Content: There are free modules to get you started without any upfront costs. It’s perfect if you’re unsure where to begin.
+    Interactive & Practical: With labs, you’ll be able to test your knowledge, see immediate results, and adjust your strategy based on feedback.
+
+If you’re serious about cybersecurity, this is a fantastic resource to help take your skills to the next level.
+3. Free Online Resources to Supplement Your Learning
+
+In addition to Amazon’s internal resources and Hack The Box, there are plenty of free external resources available. These are great for practicing specific skills or exploring new areas of cybersecurity.
+TryHackMe
+
+TryHackMe is a well-known platform that offers various beginner-friendly and advanced challenges. You can start with their free rooms and learn topics like network security, Linux basics, and more. What makes TryHackMe ideal for beginners is the availability of guided tutorials that help explain each step of the process.
+OverTheWire
+
+If you’re just getting started with the basics, OverTheWire is an excellent resource for learning Linux commands and networking fundamentals through a CTF (Capture The Flag) style game. Their Banditseries is highly recommended for anyone wanting to get comfortable with the terminal.
+CyberSecLabs
+
+For more advanced lab-based learning, CyberSecLabs offers both free and paid content. Their labs focus on real-world exploitation, covering a variety of scenarios, from web application attacks to post-exploitation techniques.
+IppSec’s YouTube Channel
+
+IppSec is a treasure trove for Hack The Box users. His YouTube channel is full of in-depth walkthroughs of Hack The Box machines. Each video helps explain why and how to approach various challenges. Even advanced users benefit from his breakdown of the methodology behind hacking problems.
+CTFtime
+
+CTFtime is the best resource for staying updated on upcoming Capture The Flag competitions. CTFs are an excellent way to test your skills and work on advanced hacking techniques. Competing in these challenges will expose you to real-world problems in a competitive environment, helping you sharpen your hacking abilities.
+4. Building a Learning Community: Hackazon
+
+Learning with others is often the most effective way to grow. Hackazon, our internal Amazon team for Hack The Box, was created to build a community where we can all learn and tackle challenges together. The group provides exclusive tutorials, guides, and walkthroughs created by members.
+Why Join Hackazon?
+
+    Collaboration: Work on boxes and challenges together with Amazonians from various backgrounds.
+    Shared Knowledge: Benefit from the resources developed by Hackazon members, such as video walkthroughs and tailored tutorials.
+    Grow Together: By participating in the group, you’ll accelerate your learning as you share tips, strategies, and feedback.
+
+Whether you’re new to Hack The Box or a seasoned pro, Hackazon is here to help you grow and challenge yourself alongside your peers.
+5. Consistency is Key
+
+The most important advice for anyone starting out is to stay consistent. Whether you're learning through the Zero to Hacker Wiki, Hack The Box, or free resources like OverTheWire, make it a habit to practice regularly. Even 30 minutes a day can make a significant difference over time. Don’t be afraid to ask questions, collaborate with others, and challenge yourself with tougher problems as you improve.
+6. Next Steps
+Explore the ZeroToHacker Wiki and start learning key cybersecurity concepts.
+Sign up for Hack The Box Academy and begin with their free modules.
+Use free resources like TryHackMe, OverTheWire, and CyberSecLabs to practice your skills in a hands-on environment.
+Join the Hackazon community to collaborate with your fellow Amazonians and share insights.
+
+
+=====
+
+
+https://tryhackme.com/
+
+https://overthewire.org/wargames/
+
+https://cyberseclabs.co.uk/
+
+https://ippsec.rocks/?#
+
+
+https://ctftime.org/
+
+By ZLCube
+
+As part of cybersecurity, it is necessary to know how to manage operating systems, the most popular in the hacking niche is Kali and Parrot Linux, however other distributions will also help us. The most important thing is to know how to move on the console. That's why below I bring you the list of the most basic and most used commands, in order for you to learn how to move in the terminal. You don't need to memorize them, you'll eventually use them instinctively. 
+
+cd Move between folders, you can pass the full path of the folder to it or use, to return to the previous folder you can type cd .. or cd ~/ to go to the user's main directory
+
+ls Show the files in the directory you're in, the -la parameter will show us hidden files and the -l parameter shows you the permissions of each file
+
+cat Read the contents of a file
+
+nano Text editor to edit the content of a file, you can also use mousepad in the case of Kali to have a more comfortable editor outside the terminal
+
+mkdir foldername Create a folder
+
+rm -r foldername Delete folder regardless of whether it has content or not
+
+sudo su Become an administrator user (Ask for password)
+
+mv /path File allows us to move from directories, files, folders, etc.
+
+cp Copy files or directories
+
+clear Cleans the console
+
+pwd Show the directory you're in
+
+control + L Clean Clean the console without deleting what you are typing
+
+up arrow Allows you to use previous command without having to type it
+
+down arrow Allows you to clear what you are typing
+
+arrow to the right -->  It allows you to autocomplete what you are typing according to the text predictor
+
+arrow to the left <--   Allows you to move between the written text to modify it
+
+--version Allows you to see the version of the program you want to use for example (git --version)
+
+tab key Allows you to fill in the name of files, directories or commands
+
+control shift c Allows you to copy what you select
+
+control shift v Allows you to paste the paper holder
+
+control c Terminate a process that is running
+
+control o Save file
+
+control x Exit file
+
+control w Search keyword
+
+chmod Allows you to change permissions, execution, reading, editing. for example (chmod +x script.sh) would give you permission to execute a script without execution permission”
+
+./ Allows you to run a file, for example (. /script.sh) allows you to execute the script that we previously gave it execution permission”
+
+echo It allows you to print text on the screen, you can pass parameters such as echo “hello world” and it shows us a hello world on the screen or echo $PATH to show a directory
+
+grep Allows you to search for a keyword (known as “piping”), for example cat documento.txt | grep “Word to search for”
+
+git clone “URL” allows you to clone a GitHub repository to install tools
+
+; With semicolons you can separate commands, this allows you to do multiple commands on a single line
+
+&& It allows you to execute more than one command per line but the next one will only be executed if the first one is successful and there is no error
+
+|| It allows you to execute one command or another, if the first one doesn't execute then execute the second
+
+touch File.txt helps you create a file with the format you want, unlike nano it only creates the file, it doesn't allow you to edit it
+
+-f The -f parameter allows you to force, meaning that it will not ask and will perform the action
+
+-v Means verbose means that it will give us more detailed information about the result of a command
+
+| xargs Allows you to add extra parameters to the result of a command
+
+curl Makes an HTTP request to view source from a web site, you can add parameters to bring it as an output file such as curl -o "website_URL"
+
+
+
